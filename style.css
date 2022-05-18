@@ -1,0 +1,12 @@
+#heading{
+    display:inline;
+    width: 100%;
+    font-size: xx-large;
+    float: left;
+}
+
+#instructions{
+    border-color: white;
+    border-width: 10px;
+    float: right;
+}

@@ -25,6 +25,21 @@
             <div id="status" class="btn btn-danger"></div>
             <br><br>
             <div id="canvas"></div>
+            <button onclick="restart()" id="restart" class="btn btn-primary">restart</button>
+            <h4>Editor:Meet</h4>
+
+            <div class="modal fade" id="instruction_modal">
+                <div class="modal-dialouge">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1>Instructions <button class="close" data-dismiss="modal">&times;</button></h1>
+                        </div>
+                        <div class="modal-body">
+                            <h3>1. Move the paddle to hit the ball<br>2.the score is displayed on the top of the game canvas<br>3.first to 4 points wins</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </center>
         <script src="main.js"></script>
     </body>

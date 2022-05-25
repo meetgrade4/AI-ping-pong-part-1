@@ -18,3 +18,19 @@ h4{
     bottom: 0% !important;
     z-index: 10000000000000;
 }
+
+canvas{
+    animation-name: mik;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    border: solid 3px lightblue;
+}
+
+@keyframes mik{
+    from{
+        box-shadow: 10 1 1 darkviolet;
+    }
+    to{
+        box-shadow: 100 1 1 darkblue;
+    }
+}

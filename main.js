@@ -26,12 +26,18 @@ var ball = {
     dx:3,
     dy:3
 }
+game_status = "";
 
 function restart(){
   console.log("restart");
   pcscore = 0;
   playerscore = 0;
   loop();
+}
+
+function startGame(){
+  game_status = " started";
+  document.getElementById("status").innerHTML = "The game has started";
 }
 
 function preload(){
